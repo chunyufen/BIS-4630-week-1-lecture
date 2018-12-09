@@ -1,0 +1,2911 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BIS4630 Corporate Compliance &amp; Fraud Analytics</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Hayson Tse, PhD (HK)" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# BIS4630 Corporate Compliance &amp; Fraud Analytics
+## Week 1 Fraud (Supplementary Materials)
+### Hayson Tse, PhD (HK)
+### 11.x.2017
+
+---
+
+
+
+
+# Help
+
+* Pink means `I am a link; please click me.`  
+
+* Click a slide and press `H` for help  
+
+???
+
+---
+# Contact info
+
+* Personal email
+
+      + [H.Tse](H.Tse@mdx.ac.uk)  
+
+      + [hayson.tse](hayson.tse@teacher.hkuspace.hku.hk)  
+
+* Course twitter
+
+      + [@bis4630](https://twitter.com/bis4630)  
+
+---
+
+# Copyright
+
+[This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Licence.](http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+
+![Copyright](by-nc-sa.svg)
+---
+# Objectives
+
+At the end of this presentation, you should understand:
+
+* Administrative arrangements of the course.
+
+* The characteristics of fraudsters.
+
+* The meanings of the various terms in relation to “fraud (in general)”.
+
+* Some specific statutory offences in relation to “fraud (in general)”.
+
+* Some offences prescribed by the Fraud Act 2006.
+
+* Background and guidelines for managing fraud (in general) risks.
+
+---
+
+# Table of contents
+
+* Course administration
+
+* Background
+
+* Economic crime
+
+* Introduction to money laundering
+
+* Introduction to financing terrorism
+
+* Introduction to bribery
+
+* Fraud Act 2006
+
+* Summary
+
+---
+
+name: course-admin
+
+class: inverse, center, middle
+
+# Course administration
+
+---
+
+# Classroom Conduct
+
+* [HKU SPACE Handbook](http://bit.ly/2ds6czb)
+
+    + Unauthorised reservation of seats is not permitted.
+
+    + Eating or drinking is not allowed.
+
+    + All mobile phones and pagers are to be turned off.
+
+    + Smoking is prohibited at all HKU SPACE learning centres and the University campus.
+
+    + No video / audio recording is allowed, except with the permission of the Programme Director / Manager, and is subject to any conditions stipulated when such permission is granted.
+
+    + Personal belongings should not be left unattended.
+
+---
+
+# Logistics
+
+* Check and liaise with HKU SPACE
+
+    + myUniHub Login name and password (e.g. Coursework!);
+  
+    + SPACE SOUL login name and password.
+
+* Connect to Twitter for update news and information about the subject area
+
+    + https://twitter.com/bis4630
+
+* Materials that MDX provided to you via myUniHub
+
+    + Coursework A, B &amp; C are in the Module Handbook (there is no unauthorised advanced disclosure)
+  
+    + Slides, Notes, free e-book, etc.
+  
+---
+
+# MSc Electronic Security and Digital Forensics Degree
+
+&gt; "This course will focus on IT law, professional and ethical issues, criminal law, theories of crime as well as looking at the legal system more generally. You’ll also focus on security regulations, contingency planning and risk management as well as intellectual property law, privacy and data protection law." - [Course homepage](http://bit.ly/2e18OVE)
+
+---
+
+# Compulsory modules
+
+* [Course homepage](http://bit.ly/2e18OVE)
+
+* 2 modules exempted for HK Students
+
+    + Information Security Management (30 Credits)
+  
+    + Digital Investigation and Evidence Management (30 Credits)
+
+* BIS4630 Corporate Compliance and Financial Crime Prevention (30 credits) (24-week module in UK);
+
+* BIS4600 Legal and Professional Aspects of Digital Forensics (30 credits) (24-week module in UK)
+
+
+* BIS4992 Postgraduate Computing Project (60 credits) (24-week module in UK)
+
+* Total: 48 weeks (excluding examinations, holidays)
+
+* Accredited by British Computer Society
+
+---
+
+# Study hours outside class contact
+
+&gt; “The study hours for each credit point is 10 hours. For a 30-credit module this equates to 300 hours. Therefore, if a module has time-tabled activities i.e. lecture/seminar/lab, of 3 hours per week for a 24-week period (total of 72 hours), then the out-of-class study commitment expected of students is 228 hours in total.” - Course Handbook.
+
+* Practical meanings: 25 days x 2 hours per day x 4 months 14 days = 228 hours
+
+---
+
+# Master’s degree in UK
+
+&gt; “[A] master’s [degree] is hard work and requires a lot of commitment. It has to be something you actively want to do . . .Postgraduate study is much more independent than undergraduate study, so, on a practical level, it is important to be aware that you may be working by yourself for much of the time.” - [Taking the plunge into the master’s world (The Guardian, 2009)](http://bit.ly/2fBScEa)
+
+---
+
+# Opportunities (UK) Corporate Compliance
+
+* Compliance Analyst
+
+* Anti-Bribery Compliance Officer
+
+* Compliance Officer
+
+* Compliance Policies Officer
+
+* Senior Corporate Complaints Officer
+
+* Compliance Officer MLRO
+
+* [International Compliance Association](http://bit.ly/2fIeaYp)
+
+* [UK career](http://bit.ly/2xHdglX)
+
+* [HK career](http://bit.ly/2yfEbpF)
+
+---
+
+# Teaching Plan IMPORTANT
+
+* The Hong Kong teaching schedule is set out below. It supersedes the UK model explained in the Module Handbook.
+
+* The Hong Kong schedule consists of a 18-week schedule decided by HKUSPACE. The UK course consists of a 24-week schedule.
+
+* The 2 dates for coursework remain the same: 7 March 2018 and 14 March 2018 (both London time)
+
+---
+
+# Week 1 - 2:  11.x.2017 &amp; 18.x.2017
+
+* Fraud
+  
+    + Laws relevant to fraud
+  
+    + What financial crime is
+  
+    + Factors that enable this
+  
+    + Fraud triangle
+  
+    + Difference between fiscal and non-fiscal fraud
+  
+    + Characteristics of fraudsters
+  
+    + Fraud conducive environments
+  
+    + Creating adverse fraud environments
+  
+    + Organisations and individuals demonstrating good behaviour
+  
+    + Departmental co-operation and control systems
+  
+    + Recovery
+---
+
+# Week 3 - 5 (Part I): 25.x.2017, 8 &amp; 22.xi.2017
+
+* Anti-Money Laundering &amp; Counter Terrorist Provisions
+
+    + Understanding of domestic policies and legislation
+  
+    + Industry and professional guidance
+  
+    + Controlled functions
+  
+    + UK primary and secondary legislation
+  
+    + Criminal property and criminal conduct
+  
+    + Business impacts
+  
+    + Money Laundering Regulations
+  
+    + SYSC guidance
+  
+    + . . .
+---
+
+# Week 3 - 5 (Part II): 25.x.2017, 8 &amp; 22.xi.2017
+
+* Anti-Money Laundering &amp; Counter Terrorist Provisions
+
+    + . . .
+  
+    + Joint Money Laundering Steering Group
+  
+    + Know Your Customer
+  
+    + Customer Due Diligence
+  
+    + Counter Terrorism
+  
+    + Financial Sanctions
+  
+    + Financial Action Task Force (FATF) recommendations
+  
+    + Characteristics of terrorist financing
+  
+---
+
+# Week 6 - 8: 6, 13 &amp; 20.xii.2017
+
+* Market Abuse, Insider Dealing &amp; Market Fraud
+
+    + Understanding of transparent and fair markets
+  
+    + Industry and professional guidance
+  
+    + Controlled functions
+  
+    + Regulatory monitoring
+  
+    + Insider dealing
+  
+    + Market manipulation
+  
+    + Misleading statements
+  
+    + Defences
+  
+    + FCA (Financial Conduct Authority) Listing, Prospectus and Disclosure Rules (principles)
+  
+    + Code of Market Conduct (FCA Handbook)
+
+---
+
+# Week 9 - 11: 3, 10 &amp; 17.i.2018
+
+* Bribery &amp; Corruption
+
+    + Understanding of how bribery and corruption initiatives work
+  
+    + Understanding UK and US regimes
+  
+    + Systems and Controls
+  
+    + Politically exposed persons
+  
+    + FATF recommendations
+  
+    + Transparency International
+  
+    + Corruption perception index
+  
+    + The effect of corruption on economies
+  
+    + Regulated sector responsibilities
+  
+    + GRECO (The Group of States against Corruption)
+
+---
+
+# Week 12 - 13: 24 &amp; 31.i.2018
+
+* Cybercrime
+
+    + The vulnerabilities of electronic crime
+  
+    + Electronic means to commit fraud and financial crime
+  
+    + Malicious damage and disruption
+  
+    + Managing breaches - planned response Policy and strategic measures
+  
+    + Electronic payment systems
+  
+    + Information security techniques
+
+---
+
+# Week 14 - 16: 7, 14 &amp; 21.ii.2018
+
+* Corporate Governance
+
+    + Impact of culture on mitigating fraud
+  
+    + Impact of corporate governance on mitigating internal fraud risks
+  
+    + UK Corporate governance code Accountability
+  
+    + Company boards / internal communication
+  
+    + Management of clients and third parties
+  
+    + Disclosure and Whistleblowing
+  
+    + Top level commitment
+  
+---
+
+# Week 17: 28.ii.2018
+
+* Revision, Practise Presentations
+
+    + 7 March 2018 is the deadline to send Coursework A, B and C to Middlesex via Middlesex Turnitin. There is no lecture on 7 March 2018.
+  
+    + Revision
+  
+    + Practise presentations
+  
+    + Examination preparation and practice
+
+---
+
+# Week 18: 14.iii.2018
+
+* Group Presentations &amp; Examination preparation
+
+    + Summative group presentation
+  
+    + Revision
+  
+    + Examination paper practice
+  
+* Assessment Formative assessment
+
+    + Monitor student learning to improve their learning
+  
+    + Provide ongoing feedback to teachers to improve teaching
+  
+* Summative assessment
+
+    + Evaluate student learning at the end of an instructional unit by comparing it against some standard or benchmark
+
+---
+
+# Important dates
+
+* 11 October 2017 - 6 December 2017, both dates inclusive
+
+    + You are recommended to research for Coursework Section A to C.
+  
+* 24 January 2018
+
+    + You are recommended to complete a first draft copy of Coursework Section A.
+  
+* 31 January 2018
+
+    + You are recommended to complete a second draft of Coursework Section A and continue to review, edit and amend until you have a ‘camera-ready’ piece of soft copy before 7 March 2018.
+
+---
+
+# Important dates
+
+* 7 February 2018
+
+    + You are recommended to complete a first draft of Coursework Section B.
+  
+* 14 February 2018
+
+    + You are recommended to complete a second draft of Coursework Section B and continue to review, edit and amend until you have a ‘camera-ready’ piece of soft copy before 7 March 2018.
+  
+* 21 February 2018
+
+    + You are recommended to complete a first draft of Coursework Section C.
+
+---
+
+# Important dates
+
+* 28 February 2018
+
+    + You are recommended to complete a second draft of Coursework Section C and continue to review, edit and amend until you have a ‘camera-ready’ piece of soft copy before 7 March 2018.
+
+---
+
+# Important dates
+
+* 7 March 2018
+
+    + Deadline for Summative Submission of Coursework Section A, B and C, each with its covering page via the supplied Turnitin link in the Middlesex University UniHub module page to Middlesex.
+  
+    + Any other means of submission, even to me or to HKUSPACE, means no submission.
+
+---
+
+# Important dates
+
+* 14 March 2018
+
+    + Group presentation for Coursework Section C.
+
+---
+
+# Summative Assessment Total 100%
+
+* Two parts
+
+    + Unseen examination (40%) to be marked by MDX; and
+  
+    + Coursework in three parts (60%) to be marked locally.
+
+---
+
+# 40%: Unseen examination
+
+* 2 hours;
+
+* Same as UK and on the same date;
+
+* Probably between 23.4.2018 and 15.5.2018, both dates inclusive;
+
+* Read and answer previous examination papers via MyUniHub.
+
+---
+
+# 60%: Coursework (In the Course Handbook)
+
+* 24% (Section A):
+    + report, ≤ 4,000 words, to the Board of directors of your company;
+
+* 24% (Section B):
+    + memorandum to staff members;
+
+* 12% (Section C):
+
+    + Group presentation (with presentation slides) to the Board of directors. (20 minutes presentation &amp; 10 minutes Q&amp;A.)
+  
+    + Presentation time and Q&amp;A time divided equally amongst members
+  
+    + 3 teams (two 2-member teams; one 3-member teams) by random
+  
+    + One mark given to the whole team
+  
+* Read questions and requirements carefully.
+
+---
+
+# Electronic Submission of Assessment via Turnitin
+
+* Course Module Handbook
+
+&gt; “Students from both Hendon Campus and Hong Kong Campus are all to use Middlesex University UniHub module page to submit coursework via the supplied Turnitin link. Coursework is not to be submitted via email or via an alternative Turnitin link.”
+
+&gt; “Each student is to submit components A, B and C.” 
+
+---
+
+# Electronic Submission of Assessment via Turnitin
+
+* Course Module Handbook
+
+&gt; “For component C –it should be clearly marked with who the group members for this component were. For simplicity component C, should be submitted by each student with the report (components A and B).”
+
+---
+
+# Attendance Requirements
+
+* Course Module Handbook
+
+&gt; “You should attend all scheduled classes. If you do not do so, you may not be able to demonstrate that you have achieved the Learning Outcomes for the module, and you are at risk of being graded “X” in the module. The definition of the X grade is: “Fail - incomplete without good reason: may not be reassessed.” As a general guide, you need to attend at least 75% of scheduled classes in order to be able to demonstrate achievement of all Learning Outcomes. On some modules, there may be more specific attendance requirements.”
+
+* Do not ask another student to sign attendance register for you. Course Module Handbook
+
+---
+
+# Warnings Plagiarism
+
+* Course Module Handbook
+
+&gt; “Plagiarism is one specific form of cheating . . .Work presented for assessment must be the candidate’s own, or the work of a project group as requested by the tutor. Plagiarism is the representation of another person’s published or unpublished work as the candidate’s own by unacknowledged quotation.”
+
+---
+
+# Warnings Academic Dishonesty
+
+* Course Module Handbook
+
+&gt; “Taking unfair advantage in assessment is considered a serious offence by the university, which will take action against any student who contravenes the regulation through negligence, foolishness or deliberate intent.”
+
+* Do not invent reference materials
+
+---
+
+# Plagiarism and Referencing
+
+* [Understanding Plagiarism and Referencing, Middlesex University](http://bit.ly/2cP60XO)
+
+---
+
+# Good science needs good communication
+
+* [Wrong concept?](http://bit.ly/2dIaQps)
+
+* [MDX: writing your assignment (1)](http://bit.ly/2ducqgA)
+
+* [MDX: writing your assignment (2)](http://bit.ly/2dvSlGt)
+
+* [MDX: presentation](http://bit.ly/2cRjJkW)
+
+* [Some suggestions from Elsevier Publishing Campus](http://bit.ly/2ebJv0F)
+
+---
+
+# Purdue University Online Writing Lab
+
+* [Homepage](http://bit.ly/1av9vzF)
+
+* [Grammar](http://bit.ly/1FLYkO8)
+
+---
+
+# Use of MDX e-Libary
+
+* Searching the MDX e-Library at myUniHub
+
+* [Searching Google Scholar](http://bit.ly/2giTmUu)
+
+* [Reasons for not citing or relying on Wikipedia and Internet resources](http://bit.ly/2z4Sdb2)
+
+* [Evaluating Sources for Credibility](http://bit.ly/1WQm1O1)
+
+---
+
+# Text processors
+
+* Markdown (RMarkdown) (Use Pandoc to convert to other formats)
+
+* LATEX
+
+* OpenOffice Writer, LibreOffice Writer
+
+* StarOffice Writer
+
+* Apple Page
+
+* Microsoft Word
+
+---
+
+# LATEX
+
+* [What is LATEX](http://bit.ly/2ddsn9w)
+
+* [Writing a paper with LATEX or Word or OpenOffice or . . .(1)](http://bit.ly/2dvojoP)
+
+* [Writing a paper with LATEX or Word or OpenOffice or . . .(2)](http://bit.ly/2du7CrI)
+
+* [Creating first paper in LATEX (1)](http://bit.ly/2d2Z6iF)
+
+* [Creating first paper in LATEX (2)](http://bit.ly/2cxyJE8)
+
+* [Creating first paper in LATEX (3)](http://bit.ly/2dam5ZK)
+
+* [Creating first paper in LATEX (4)](http://bit.ly/2dDiC7P)
+
+---
+
+# Citation Management Tools
+
+* [EndNote on Mac: The Short Course (25.5 minutes)](http://bit.ly/2d2WTE4)
+
+* [EndNote on Windows: The Short Course (25.5 minutes)](http://bit.ly/2dlra07)
+
+* [Getting started with Mendeley (5.5 minutes)](http://bit.ly/2dlrPi5)
+
+* [More Videos &amp; tutorials on how to use Mendeley](http://bit.ly/1SIIPfi)
+
+* My bibliography file in five different formats sent to you as a starter
+
+---
+
+# Citation Management Tools
+
+* [Comparison of reference management software](http://bit.ly/1TpR56z)
+
+* [Harvard Kennedy School Library and Knowledge Service: Using Zotero (14 minutes)](http://bit.ly/2d2GdOK)
+
+* [More videos from HKSL](http://bit.ly/2cvGnKw)
+
+---
+
+# Starting kits
+
+* Tools
+
+    + Covering sheet for Coursework A
+  
+    + Covering sheet for Coursework B
+  
+    + Covering sheet for Coursework C
+  
+    + Bibliography file in 5 formats
+  
+    + An overall picture of the whole course
+  
+    + Freeplane (Freemind) file summarising one area of studies
+  
+    + Excel working sheet summarising some notes
+
+---
+
+# Bank data losses
+
+* [Barclays blasted over ‘catastrophic’ theft of thousands of customer files](http://bit.ly/2cvhVsO)
+
+* Blackmailer hacks European Central Bank website, steals email addresses and contact details
+
+    + [News 1](http://bit.ly/2dl12qJ)
+  
+    + [News 2](http://cnb.cx/2duQS5I)
+  
+    + [News 3](http://on.wsj.com/2d2cKnQ)
+  
+    + [News 4](http://bit.ly/2diS0tJ)
+  
+    + [News 5](http://bit.ly/2d2dHN1)
+  
+---
+
+# Bank data losses
+
+* [Bank details of thousands of Lloyds’s customers lost](http://bit.ly/2d2d9a9)
+
+* [Banks need to tackle web fraud](http://bit.ly/2al6l4t)
+
+* [ECB to set up cyber attack warning system for banks](http://reut.rs/2dkWKLI)
+
+---
+
+# The Banker Masterclass Video (1)
+
+* [“The Banker”](http://bit.ly/2cx9qC9) provides economic and financial intelligence for the world’s financial sector since 1926.
+
+* Financial Crime Compliance (1 October 2014)
+
+    + [Chapter 1 Key trends (4 minutes)](http://bit.ly/2cvi27C); ([Alternative URL to Chapter 1](http://bit.ly/2d2em18))
+
+    + [Chapter 2 Risk assessment (5 minutes)](http://bit.ly/2dkX4tA); ([Alternative URL to Chapter 2](http://bit.ly/2d2fDFb))
+
+    + [Chapter 3 De-risking (5 minutes)](http://bit.ly/2dcCqPb); ([Alternative URL to Chapter 3](http://bit.ly/2diTLan))
+  
+    + [Chapter 4 Utilities (4.5 minutes)](http://bit.ly/2dcCZse); ([Alternative URL to Chapter 5](http://bit.ly/2dkXYqj))
+
+---
+
+# The Banker Masterclass Video (2)
+
+* Compliance focus (30 May 2014)
+
+    + [Chapter 1 Key challenges (5 minutes)](http://bit.ly/2cYVS3M);  ([Alternative URL to Chapter 1](http://bit.ly/2dcFTxd))
+  
+    + [Chapter 2 Sanctions compliance (6.5 minutes)](http://bit.ly/2duVXLg), [Alternative URL to Chapter 2](http://bit.ly/2dl4KjZ)
+  
+    + [Chapter 3 Know your customer (6 minutes)](http://bit.ly/2dsuNll), [Alternative URL to Chapter 3](http://bit.ly/2dcFdYA)
+
+    + [Chapter 4 Compliance roadmap (5 minutes)](http://bit.ly/2dl5hlZ), [Alternative URL to Chapter 4](http://bit.ly/2dcFhYs)
+
+---
+
+# The Banker Masterclass Video (2)
+
+* Beyond digital (1 September 2016)
+
+    + [Chapter 1 Winning in a challenging environment (5minutes)](http://bit.ly/2eaPRgA); ([alternative URL to Chapter 1](http://bit.ly/2dY4XGB))
+  
+    + [Chapter 2 Beyond the Cognitive Bank (6.5 minutes)](http://bit.ly/2dlQMfA); ([Alternative URL to Chapter 2](http://bit.ly/2dM9U5T))
+  
+    + [Chapter 3 Radical cost take-out (6 minutes)](http://bit.ly/2e74pC3); ([Alternative URL to Chapter 3](http://bit.ly/2dxtqBe))
+  
+    + [Chapter 4 Cybersecurity beyond compliance (6 minutes)](http://bit.ly/2cOEvxk); ([Alternative URL to Chapter 4](http://bit.ly/2cYZrXT))
+
+---
+
+# Financial Conduct Authority Financial crime: Guides for firms
+
+
+* [Download Financial Conduct Authority (FCA) Reader’s Guide: An Introduction to the Handbook (November 2015) (16 pages); (section 5: terms of High Level Standards); (section 6: terms of Day-to-day conduct rules)](http://bit.ly/2elD9zo);
+
+* [Download Senior Management Arrangements, Systems and Controls (October2016)](http://bit.ly/2dWOTWf);
+
+* [Download Financial crime: a guide for firms, Part 1: A firm’s guide to preventing financial crime (April 2015); (Chapter 5)](http://bit.ly/2e1oXtV);
+
+* [Download FCA Financial crime: a guide for firms, Part 2: Financial crime thematic reviews (April 2015); (Chapter 6) (Chapter 8)](http://bit.ly/2cVyocG).
+
+---
+
+# Information Security Policy
+
+* [One way to write an Information Security policy](http://bit.ly/2djaHxA)
+
+* [One template of Information Security Policy](http://bit.ly/1L9I8Ho)
+
+* [Committee of Sponsoring Organisations of the Treadway Commission (COSO): COSO in the Cyber Age](http://bit.ly/1yYPCtu)
+
+---
+
+# Financial Fraud Detection Software
+
+* [Example 1](http://bit.ly/1OQnzX1)
+
+* [Example 2](http://on.wsj.com/1T5hgkg)
+
+* [Example 3](http://bit.ly/2d2ss2v)
+
+* [Example 4](http://bit.ly/2cvtGiM)
+
+* [Example 5](http://bit.ly/2dj9PJd)
+
+* [Example 6](http://bit.ly/2dv9uCA)
+
+---
+
+name: bkg
+
+class: inverse, center, middle
+
+# Background
+
+---
+
+# Biennial PwC Global Economic Crime Survey 2016
+
+* [Global](http://pwc.to/1SbNf1D)
+
+* [UK](http://pwc.to/2dKaxAw)
+
+* [HK](http://pwc.to/2e7KH59)
+
+---
+
+# Biennial PwC Global Economic Crime Survey 2016
+
+* Scale of survey
+
+    + More than 6,000 participants in 115 countries, including the United Kingdom; two-year survey.
+
+* UK statistics
+
+    + 55% of organisations were affected in the last 24 months, + 11% since 2014 (note: US (38%) and China (28%)).
+
+    + 60% of economic crime was committed by external perpetrators, + 4% since 2014;
+
+    + 18% of fraud was committed by senior management (“silver fraudster”) (7% in 2014);
+
+    +  . . .
+  
+---
+
+# Biennial PwC Global Economic Crime Survey 2016
+
+* UK statistics
+
+    + Fraud risk management detected 14% of frauds compared to the global average of 8%;
+  
+    + 1/5 of respondents had not carried out a fraud risk assessment in the last two years.
+
+    + 30% of reported frauds were detected by suspicious transaction monitoring or data analytic (down from 37% in 2014).
+
+---
+
+# Why do good people do bad things Bud Krogh
+
+&gt; “. . . Watergate was a government meltdown . . . You had people of good intent who were basically honest and wanted to do a good job who came into a world where there was enormous pressure for results. In government, it’s carrying the president’s program forward. In the corporate world, it’s creating shareholder value and profits. Those internal drivers become more important than anything else. It’s very difficult to adhere to your own moral code, especially if you think, Well, this is just the way things are done. It’s the way government runs. It’s the way corporation run.” - Bud Krogh&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Smith and Emshwiller, 24 Days: How two Wall Street Journal reporters uncovered the lies that destroyed faith in corporate America, Harper Business, 2004, at page xviii.
+]
+
+---
+
+# Why do good people do bad things John M. Darley
+
+&gt; “. . . most harmful actions are not committed by palpably evil actors carrying out solitary actions. Instead, the typical evil action is inflicted on victims by individuals acting within an organisational context.” - John M. Darley&lt;sup&gt;1&lt;/sup&gt;
+
+&gt; “. . . Most unethical behaviour is not done for personal gain, it’s done to meet performance goals.” - David Gebler&lt;sup&gt;2&lt;/sup&gt; 
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Messick and Tenbrunsel (Editors), Codes of Conduct: behaviour research into business ethics, Russell Sage Foundation, 1996, at page 13.
+
+&lt;sup&gt;2&lt;/sup&gt; Ferrell, Fraedrich and Ferrell, Business Ethics: ethical decision making and cases, Russell Sage Foundation, 2015, at page 173.
+]
+
+---
+
+# Why do good people do bad things John Dalla Costa
+
+&gt; “. . . There are truly sinister business people with sinister intentions, but, for the most part, ethical and legal lapses are the stuff of average people who know better.” - John Dalla Costa&lt;sup&gt;1&lt;/sup&gt; 
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; The ethical imperative, Basic Books, 1999, at page 71.
+]
+
+---
+
+# Who are honest
+
+* Association of Certified Fraud Examiner Workplace Deviance Model (Results of research into honesty)&lt;sup&gt;1&lt;/sup&gt;
+
+    + No more than 10% of employees (including managers and directors) can be relied upon to be “totally honest”;
+
+    + 10% of the workforce might be described as being “totally dishonest”;
+
+    + 80% is capable of being influenced (to do good or bad);
+
+    + Strong internal controls will have a major deterrent effect on any individual who might be tempted to commit fraud.
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Steve Giles, Managing Fraud Risk: A Practical Guide for Directors and Managers. 1st edition. Chapter 3 People.
+]
+
+---
+
+# The Fraud Triangle (1951)
+
+&gt; Hypothesis: “Trusted persons become trust violators when they conceive of themselves as having a financial problem which is non-sharable, are aware that this problem can be secretly resolved by violation of the position of financial trust and are able to apply to their own conduct in that situation verbalisations which enable them to adjust their conceptions of themselves as trusted persons with their conceptions of themselves as users of entrusted funds or property.”&lt;sup&gt;1, 2&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Donald R. Cressey, Why Do Trusted Persons Commit Fraud? A Social-Psychological Study of Defalcators, Journal of Accountancy, 92 (1951), 576 – 581.
+
+&lt;sup&gt;2&lt;/sup&gt; Donald R. Cressey, Other People’s Money: A Study in the Social Psychology of Embezzlement, Free Press, 1953, at page 973.
+]
+
+---
+
+# The Fraud Triangle studies
+
+* Interviewed 133 inmates in three prisons for his study&lt;sup&gt;1&lt;/sup&gt;;
+
+* Three elements present in every fraud: motivation (some kind of perceived pressure), opportunity ( some perceived opportunity) and rationalisation (some way to rationalise the fraud as not being inconsistent with one’s values.)&lt;sup&gt;2&lt;/sup&gt;.
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Donald R. Cressey, Why Do Trusted Persons Commit Fraud? A Social-Psychological Study of Defalcators, Journal of Accountancy, 92 (1951), 576 – 581.
+
+&lt;sup&gt;2&lt;/sup&gt; Donald R. Cressey, Other People’s Money: A Study in the Social Psychology of Embezzlement, Free Press, 1953, at page 973.
+]
+
+---
+
+# The Fraud Triangle: Motivation
+
+* Motive (or pressure or incentive)
+
+* Feel a pressure or a need to commit fraud, e.g. financial obligations;
+
+* “fraud pressure” = “perceived non-shareable financial need”.
+
+* “status deflating” = the embarrassment of not being able to fulfil the financial need.
+
+---
+
+# The Fraud Triangle: Opportunity
+
+* An open door for solving a non-shareable problem in secret by violating a trust;
+
+* Concealment;
+
+* Would not get caught;
+
+* Some technical skill and knowledge of the systems and controls within an organisation;
+
+* Directors and managers represent a high fraud risk is because their rank in hierarchical organisations often gives them the ability to override controls.
+
+---
+
+# Rationalisation: morally acceptable rationalisation
+
+* Before the crime takes place
+
+* Convince himself or herself that the actions they are about to take are not really criminal at all
+
+* A conscious decision by the perpetrator to place his or her needs above the needs of others;
+
+* Preserving his or her self-image as a trustworthy person;
+
+* Some common rationalisations (the act is justified): . . . ;
+
+---
+
+# Some common rationalisations:
+
+* Even up the scorecard;
+
+* Promotion that was not forthcoming;
+
+* Pay rise inadequate;
+
+* No expected bonus;
+
+* Just a loan;
+
+* Company does not need money;
+
+* Part of general scheme in which they are not completely culpable;
+
+---
+
+# Interaction like a balance scale
+
+![Figure 1: Fraud: Three Key Variables](scalesOf3Variables.png)
+
+.footnote[
+&lt;sup&gt;&lt;/sup&gt; W. Steve Albrecht: Interaction of the three key variables as a balance scale
+
+&lt;sup&gt;&lt;/sup&gt; Figure 2 of W. Steve Albrecht, Iconic fraud triangle endures, Fraud Magazine, July / August 2014, 1 - 7.
+]
+
+---
+
+# Interaction of the three key variables as a balance scale
+
+&gt; “We found that the decision to commit fraud is determined by the interaction of all three forces. We concluded that a useful way to visualize the interaction is to picture a balance scale (see Figure 2, “Fraud: Three Key Variables” at right) with three connecting bars at the top. Each of the three connected bars has a weight that can move independently of the other weights, in either direction. Thus, the combination of the three continua (or bars) - along with the locations and sizes of the three weights - determines to which side the scale will tilt.”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; W. Steve Albrecht: Interaction of the three key variables as a balance scale
+Figure 2 of W. Steve Albrecht, Iconic fraud triangle endures, Fraud Magazine, July / August 2014, 1 - 7.
+]
+
+---
+
+# Students who cheat
+
+&gt; “The student might say:
+
+&gt; * 1) I need to cheat to get a good grade in order to keep my scholarship - a perceived pressure;
+
+&gt; * 2) the professor left the room during the test - a perceived opportunity; and
+
+&gt; * 3) everyone cheats a little - a rationalisation.”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; W. Steve Albrecht: Interaction of the three key variables as a balance scale
+Figure 2 of W. Steve Albrecht, Iconic fraud triangle endures, Fraud Magazine, July / August 2014, 1 - 7.
+]
+
+---
+
+# Breaking speed limits
+
+
+&gt; “The person who breaks the speed limit while driving. That person might say:
+
+&gt; * 1) I’m late - a perceived pressure;
+
+&gt; * 2) I won’t get caught - a perceived opportunity; and
+
+&gt; * 3) everyone breaks the speed limit - a rationalisation.”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; W. Steve Albrecht: Interaction of the three key variables as a balance scale
+Figure 2 of W. Steve Albrecht, Iconic fraud triangle endures, Fraud Magazine, July / August 2014, 1 - 7.
+]
+
+---
+
+# Husband and wife
+
+&gt; “The husband or wife who isn’t true to their marriage partner. That person might rationalise by saying:
+
+&gt; * 1) I need a caring female or male companionship - a perceived pressure;
+
+&gt; * 2) he or she likes me and is making advances towards me - a perceived opportunity; and
+
+&gt; * 3) my wife or husband doesn’t love or care about me anymore - a rationalisation.”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; W. Steve Albrecht: Interaction of the three key variables as a balance scale
+Figure 2 of W. Steve Albrecht, Iconic fraud triangle endures, Fraud Magazine, July / August 2014, 1 - 7.
+]
+
+---
+
+# Refusing to return excessive change from grocery store
+
+&gt; “That person might say:
+
+&gt; * 1) I need this money - perceived pressure;
+
+&gt; * 2) they gave it to me - a perceived opportunity; and
+
+&gt; * 3) they’ll never miss it, it’s their mistake anyway - a rationalisation.”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; W. Steve Albrecht: Interaction of the three key variables as a balance scale
+Figure 2 of W. Steve Albrecht, Iconic fraud triangle endures, Fraud Magazine, July / August 2014, 1 - 7.
+]
+
+---
+
+# Nine motivators for fraudsters
+
+* Study about 200 fraud cases&lt;sup&gt;1&lt;/sup&gt;
+
+* Living beyond their means;
+
+* An overwhelming desire for personal gain;
+
+* High personal debt;
+
+* A close association with customers (suppliers, buyers);
+
+* Feeling pay was not commensurate with responsibility;
+
+* (Unscrupulous) wheeler-dealer attitude;
+
+* . . .
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Albrecht, S., Howe, K. and Romney, M., Deterring Fraud: The Internal Auditor’s Perspective (Alamonte Springs, FL, Institute of Internal Auditors Research Foundation, 1984).
+]
+
+---
+
+# Nine motivators for fraudsters
+
+* Study about 200 fraud cases&lt;sup&gt;1&lt;/sup&gt;
+
+* . . .
+
+* Have a strong “beat the system” attitude;
+
+* Excessive gambling habits; and
+
+* Undue family or peer pressure
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Albrecht, S., Howe, K. and Romney, M., Deterring Fraud: The Internal Auditor’s Perspective (Alamonte Springs, FL, Institute of Internal Auditors Research Foundation, 1984).
+]
+
+---
+
+# Fraud Diamond: a fourth element
+
+* An individual’s capability to commit fraud&lt;sup&gt;1&lt;/sup&gt;
+
+    + The person’s position or function within the organisation, which may give that person the ability to create or exploit an opportunity not available to others;
+
+    + The person being smart enough to understand and exploit accounting systems and internal control weaknesses;
+
+    + The person has a strong ego and great confidence that he or she will not be detected (or if detected, they will be able to talk themselves out of any difficulty);
+
+    +  . . . 
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Wolfe, D., and Hermanson, D., The fraud diamond: considering the four elements of fraud, The CPA Journal, December 2004.
+]
+
+---
+
+# Fraud Diamond: a fourth element
+
+* An individual’s capability to commit fraud&lt;sup&gt;1&lt;/sup&gt;
+
+    +  . . . ;
+
+    + The person has a strong and very persuasive personality. Capable of abusing authority and very often a bully, he or she can convince others to commit or conceal fraud, or simply to look the other way;
+
+    + The person must also be an effective liar. This includes the ability to look people such as auditors in the eye and lie convincingly to them. They also must be able to keep track of the lies so that the overall story remains consistent; and
+
+    +  . . . ;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Wolfe, D., and Hermanson, D., The fraud diamond: considering the four elements of fraud, The CPA Journal, December 2004.
+]
+
+---
+
+# Fraud Diamond: a fourth element
+
+* An individual’s capability to commit fraud&lt;sup&gt;1&lt;/sup&gt;
+
+    +  . . . ;
+
+    + Finally,to be a successful fraudster the person will be able to handle stress very well. For there is the constant risk of detection, with all its personal implications, as well as the need to conceal the fraud, often on a daily basis.
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Wolfe, D., and Hermanson, D., The fraud diamond: considering the four elements of fraud, The CPA Journal, December 2004.
+]
+
+---
+
+# Profile of a fraudster
+
+* [2010 Association of Certified Fraud Examiner (ACFE) Report to the Nations](http://bit.ly/2dMaFwX)
+
+    + The greatest risk lies at the top
+
+    + Tenure
+
+    + The squeezed middle
+
+    + The fraudster’s department 
+
+---
+
+# The greatest risk lies at the top
+
+* They are the individuals with the greatest opportunity to commit fraud by overriding controls
+
+* They are likely to have the ability to conceal the fraud too
+
+* Biggest fraud losses tend to result from the actions of well-educated, older males
+
+---
+
+# Tenure
+
+* Those working for a longer period of time tend to generate more trust from their managers and peers
+
+* They can develop a good understanding of the systems and procedures, being in a position to spot weakness and evade internal controls
+
+* They may reach higher levels of authority
+
+---
+
+# The squeezed middle
+
+* The typical internal fraudster in the UK is a male middle manager in his thirties who has been employed by the victim organisation for between three and five years
+
+* Middle managers remain longer at that level because of poor economy
+
+* The middle manager (highly-skilled technical) perceives that his or her superior has an inadequate grasp of the technical detail
+
+---
+
+# The fraudster’s department
+
+* Accounting, operations, sales, customer service, purchasing and executive / upper management
+
+* Working on the trading desks of financial services institutions
+
+* The executive suite (board and senior management level) as one of the high-risk departments
+
+---
+
+# Enron Corp. Enron Corp. (Enron)
+
+* A failure of corporate governance: A wake-up call&lt;sup&gt;1, 2, 3&lt;/sup&gt;
+
+* Factors affecting downfall
+
+    + The mark-to-market method (the first non-financial company approved by US Securities &amp; Exchange Commission on 30.i.1992);
+
+    + The competitive working environment and reward systems; and
+
+    + The use of special purpose entities.
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Susan Madsen Charles Vance, (2009), Unlearned lessons from the past: an insider’s view of Enron’s downfall, Corporate Governance: The international journal of business in society, Vol. 9 Iss 2 pp. 216 - 227
+
+&lt;sup&gt;2&lt;/sup&gt; Meredith Downes Gail S. Russ, (2005), Antecedents and consequences of failed governance: the Enron example, Corporate Governance: The international journal of business in society, Vol. 5 Iss 5 pp. 84 - 98
+
+&lt;sup&gt;3&lt;/sup&gt; Gerald Zandstra, (2002), Enron, board governance and moral failings, Corporate Governance: The international journal of business in society, Vol. 2 Iss 2 pp. 16 - 19
+]
+
+---
+
+# Enron Corp. (Enron)
+
+* A failure of corporate governance: A wake-up call
+
+&gt; “The Enron Board of Directors failed to safeguard Enron shareholders and contributed to the collapse of the seventh largest public company in the United States, by allowing Enron to engage in high risk accounting, inappropriate conflict of interest transactions, extensive undisclosed off-the-books activities, and excessive executive compensation. The Board witnessed numerous indications of questionable practices by Enron management over several years, but chose to ignore them to the detriment of Enron shareholders, employees and business associates.”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; [Report to a Committee of the United States Senate](http://bit.ly/2dk6OIs)
+]
+
+---
+
+# Enron: A failure of corporate governance
+
+* [BBC timelines 1](http://bbc.in/2ehvRfi)
+
+* [BBC timeines 2](http://bbc.in/2dMAMC1)
+
+
+---
+
+# Summary of timelines
+
+* July 1985 Houston Natural Gas merged with InterNorth, a natural gas company, to form Enron.
+
+* Engaged in purchase and sale of natural gas and power, construction and ownership of pipelines, power facilities and energy-related businesses, provisions of telecommunications services, and trading in contracts to buy and sell various commodities worldwide.
+
+* A publicly trade company whose shares were listed on the New York Stock Exchange and were bought and sold throughout the world.
+
+* . . .
+
+---
+
+# Summary of timelines
+
+* . . .
+
+* The price of Enron’s stock was influenced by reported revenue, earnings, debts, cash flow, growth potential, etc.
+
+* In late 1990, Enron controlled about 25% of all electricity and natural gas contracts traded worldwide.
+
+* On 28 December 2000, the 7th most valuable and largest corporation in the United States (Enron shares: US$84.87).
+
+* 28 November 2001, Enron shares plunged below US$1.
+
+* Filed bankruptcy on 2 Dec 2001 (20,000 employees; $618 million loss; eliminating US$1.2 billion of shareholder equity).
+
+---
+
+# [Enron Top Executives convicted](http://nyti.ms/2ehe7BE)
+
+* Kenneth L. Lay, Chairman and Chief Executive
+
+* Jeffrey K. Skilling, Chief Executive
+
+* David W. Delainey, Chief Executive, Energy Division
+
+* Andrew S. Fastow, Chief Financial Officer
+
+* Ben F. Gilsan Jr, Treasurer
+
+* Richard A. Causey, Chief Accounting Officer
+
+* Mar E. Koening, Director of Investor Relations
+
+* Paula H. Rieker, Board Secretary, Manager of Investor Relations
+
+---
+
+# Enron
+
+* Whistleblowers&lt;sup&gt;1&lt;/sup&gt;
+
+    + Rebecca Smith and John R. Emshwiller, two reporters of the Wall Street Journal
+
+    + Sherron Watkins, an Enron vice-president, wrote an anonymous letter to Ken Lay
+
+    + Chung Wu, a UBS PaineWebber broker in Houston, told investment clients that Enron was in trouble and advised them to consider selling their shares.
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Dembinski, Lager, Cornford and Bonvin (Eds.), Enron &amp; world finance: a case study in ethics, 2006, Palgrave MacMillian, New York.
+]
+
+---
+
+# Malpractices of Enron explained
+
+* In September 2016, a HK company (A) agreed to sell goods to a British company (B) for £1 million. A agreed to deliver and B agreed to pay in £ in April 2017. For simplicity, let us assume “selling price” = “profit” + “material and labour costs”. Let us also assume A paid its “material and labour costs” in HK in HK$.
+
+* In September 2016, £1 equalled HK$9.8. The contract was worth HK$9.8 million.
+
+* If the HK dollar falls to $9.2 per £ by April 2017, the £1 million will only worth HK$9.2 million to A. How can A avoid the risk of potential loss?
+
+---
+
+# Malpractices of Enron explained
+
+
+* In September 2016, A entered into a contract on the £ with his HK bank. The contract binds A to sell £ 1 million to the bank and the bank to buy £1 million at an exchange rate of £ 1 to HK$9.8 in April 2017.
+
+* The contract is called a derivatives contract. The value of the contract is “derived” from the underlying value of the sales and purchase contract.
+
+* The derivatives contract protects against A’s potential loss. What if £1 equals to HK$11 in April 2017?
+
+* What if £1 equals to HK$8.8 in April 2017?
+
+---
+
+# Malpractices of Enron explained
+
+* Where A agreed to deliver and B agreed to pay in 2019, if in 2017 or 2018, A’s accountant is to give an account for the profit (why not loss), how would he do it?
+
+* Similarly, where D and E entered into a contract that would give D a lot of earnings in the years to come, if A which owned 97% of D, raised a large sum of money from a bank F in exchange for a promise of most of the earnings from the contract of D, how would A’s account record the receipt of the large sum of money? What if the contract of D and E resulted in a loss? What if E cancelled the contract a year later?
+
+---
+
+# Enron persons charged
+
+* More than thirty defendants were charged, including 21 former Enron executives (e.g. Andrew Fastow, Chief Financial Officer, etc).
+
+* [Indictment](http://bit.ly/2d1G4fF) ([alternative URL](http://bit.ly/2dpuZAY)) against Kenneth Lay, Jeffrey Skilling and Richard Causey.
+
+---
+
+# Kenneth Lay
+
+* 1986, Chief Executive Officer and Chairman of the Board of Directors of Enron
+
+* 2001, stepped down as CEO and continued as Chairman
+
+* 25 May 2006, convicted of 6 counts of securities fraud and wire fraud (could be sentenced to 45 years) 4. 5 July 2006, died of heart attack before sentence.
+
+* The Ken Lay defence: “Sorry, I was asleep at the switch, out to lunch, didn’t know what was happening.”
+
+---
+
+# Jeffrey Skilling
+
+* From 1979 to 1990, employed by McKinsey &amp; Co. and provide consulting services to Enron;
+
+* August 1990, employed by Enron and held various executive and management position;
+
+* January 1997, Chief Operating Officer of Enron
+
+* February 2001, President and Chief Executive Officer of Enron
+
+* 14 August 2001, resigned and sold almost $60 million in Enron shares.
+
+* Rebecca Smith and John R. Emshwiller, two reporters from the Wall Street Journal started to investigate why Skilling would leave a dream job.
+
+* . . . 
+
+---
+
+# Jeffrey Skilling
+
+* . . .
+
+* 25 May 2006, convicted on 19 counts of securities fraud and wire fraud (sentenced to 24 years 4 months; could be released in 2017 because of agreeing to drop appeals and turned over $40 million in restitution and time off for good behaviour.)
+
+---
+
+
+# Richard Causey
+
+* A Certified Public Accountant
+
+* 1986 to 1992, employed by Arthur Andersen LLP, an accounting firm, and sold outside auditor services to Enron.
+
+* 1991 to early 2002, employed by Enron in various executive positions.
+
+* 1998, Chief Accounting Officer and Executive Vice-President of Enron.
+
+* 28 December 2005, pleaded guilty to a count of securities fraud and agreed to testify against Layand Killing (sentenced to five years and 6 months.).
+
+---
+
+# Andrew Fastow
+
+* Chief Financial Officer of Enron
+
+* Mastermind of the deceptive accounting practices
+
+* 6-year prison sentence
+
+---
+
+# More lessions
+
+* (2014) Tesco account scandal: profit should be at least £250 million lower than they had announced a month ago.
+
+* (2015) Volkswagen using “defeat device” software to get its diesel cars to pass strict emission tests.
+
+* (2015) FIFA: 7 international high ranking football officials were arrested by Swiss authorities (with FBI) in Zurich. US DoJ brought charges against 9 FIFA officials in US.
+
+
+---
+name: eco-crime
+
+class: inverse, center, middle
+
+# Economic crime
+
+---
+
+# Some labels
+
+* White collar crime?
+
+* Financial crime?
+
+* Economic crime?
+
+* Financial abuse?
+
+* Fraud (a general term? a statutory term?)
+
+* (Is it victimless?)
+
+.footnote[
+&lt;sup&gt;&lt;/sup&gt; Harrison &amp; Ryder, The Law Relating to Financial Crime in the United Kingdom, 2nd edition. Chapter 1: Introduction
+]
+
+---
+
+# White collar crime
+
+* A crime committed by a person of respectability and high social status in the course of his occupation?
+
+
+&gt; “The present-day white-collar criminals, . . . , are represented . . . [by] many other merchant princes and captains of finance and industry, and by a host of lesser followers.” - Professor Edwin Sutherland&lt;sup&gt;1&lt;/sup&gt;
+
+&gt; “. . . illegal behaviour that takes advantage of positions of professional authority and power – or simply the opportunity structures available within business – for personal or corporate gain.” - M. Kempa&lt;sup&gt;2&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; E. Sutherland, The white collar criminal, (1940) American Sociological Review, 5(1), pp. 1 - 12, at p. 1.
+
+&lt;sup&gt;2&lt;/sup&gt; M. Kempa, Combating white-collar crime in Canada: Serving victim needs and market integrity, (2010) Journal of Financial Crime, 17(2), 252.
+]
+
+---
+
+# Financial crimes
+
+* Section 6(3) of the Financial Services and Markets Act 2000 applies only to FSMA 2000:
+
+&gt; ““Financial crime” includes any offence involving –
+
+&gt; (a) fraud or dishonesty;
+
+&gt; (b) misconduct in, or misuse of information relating to, a financial market; or
+
+&gt; (c) handling the proceeds of crime.”
+
+* “Financial crime includes any offence involving money laundering, fraud or dishonesty, or market abuse.” - [Financial Services Authority definition](http://bit.ly/2dHEv89)
+
+---
+
+# Financial crimes
+
+* Definition (exhaustive?) in [section 1H(3) of the Financial Services Act 2012](http://bit.ly/2d8XCBF) applies only to FSA 2012:
+
+&gt; ““Financial crime” includes any offence involving –
+
+&gt; (a) fraud or dishonesty;
+
+&gt; (b) misconduct in, or misuse of information relating to, a financial market; 
+
+&gt; (c) handling the proceeds of crime.
+
+&gt; (d) the financing of terrorism.”
+
+---
+
+# What is financial crime? Academic views
+
+&gt; “a crime against property, involving the unlawful conversion of property belonging to another to one’s own personal use and benefit . . . profit driven . . . to gain access to and control over property that belonged to someone else.” - Gottschalk&lt;sup&gt;1&lt;/sup&gt;
+
+
+&gt; “the use of deception for illegal gain, normally involving breach of trust, and some concealment of the true nature of the activities.” - Pickett and Pickett&lt;sup&gt;2&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1, 2&lt;/sup&gt; P. Gottschalk, Categories of financial crime, (2010) Journal of Financial Crime, 17(4), 441 – 458.
+
+]
+
+---
+
+# What is financial crime?
+
+&gt; Including criminal activities of corporate fraud, commodities and securities fraud, mortgage fraud and money laundering. - [Federal Bureau of Investigation](http://bit.ly/2dBnCJS)
+
+&gt; “. . . it can refer to any non-violent crime that generally results in a financial loss.” - [International Monetary Fund](http://bit.ly/2do5Cj4)
+
+---
+
+# What is white collar crime?
+
+&gt; “throughout the last 100 years, no one could ever figure it out.”&lt;sup&gt;1&lt;/sup&gt;
+
+* White collar crime is more encompassing than financial crime?
+
+* White collar crime has been referred to as:
+  
+    + financial crime;
+  
+    + economic crime; and
+  
+    + illicit finance.
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; E. KePodgor, White collar crime: A letter from the future, (2007) Ohio State Journal of Criminal Law, 5, 247 – 255, at 247.
+]
+
+---
+
+# Examples of white collar crime:
+  
+* Money laundering;
+  
+* Insider trading;
+  
+* Fraud; and
+  
+* Market manipulation.
+  
+---
+
+# Financial Abuse
+
+&gt; “Financial or material abuse, including theft, fraud, exploitation, pressure in connection with wills, property or inheritance or financial transactions, or the misuse of misappropriation of property, possessions or benefits.”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; [City of London Police, Assessment: financial crime against vulnerable adults. Social Care Institute for Excellence: London, November 2011, 2.](http://bit.ly/2dXvumx)
+]
+
+---
+
+# Fraud definitions
+
+&gt; “There are many definitions of fraud to be found in the anti-fraud laws and regulations of countries around the world. It is important to be clear right at the start that these legal definitions must always be referred to and followed when conducting fraud investigations.”&lt;sup&gt;1&lt;/sup&gt;
+
+&gt; “An intentional act by one or more individuals among management, those charged with governance, employees or third parties involving the use of deception to obtain an unjust or illegal advantage.” - International Standards on Auditing No.240: Fraud
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Steve Giles, Managing Fraud Risk: A Practical Guide for Directors and Managers,  1st edition. Chapter 2 Meaning (of Fraud)
+]
+
+---
+
+# Fraud definitions
+
+&gt; “The use of deception with the intention of obtaining an advantage, avoiding an obligation or causing loss to someone else or to an organisation.” - [Michael Fardon, Internal Control and Accounting Project, Osborne Books Limited, 2013, Chapter 3](http://bit.ly/2dbAMJM)
+
+---
+
+# Fiscal and non-fiscal fraud
+
+* Fiscal fraud is against government
+
+&gt; “The (fraudulent) art of avoiding to fall into the attraction field of tax (fiscal) law.” (brackets added)&lt;sup&gt;1&lt;/sup&gt;
+
+* VATA Offences:
+
+    + Section 72(1) of [the Value Added Tax Act 1994](http://bit.ly/2eMPtbx): Fraudulent evasion of VAT
+
+    + Section 72(3) of [the Value Added Tax Act 1994](http://bit.ly/2eMPtbx): False statement for VAT purposes 3. 
+  
+    + Section 72(8) of [the Value Added Tax Act 1994](http://bit.ly/2eMPtbx): Conduct amounting to an offence
+
+    + . . .
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; N. Hoanta. Tax evasion. Bucharest: Tribune Publishing House. (1997). page 218.
+]
+
+---
+
+# Fiscal and non-fiscal fraud
+
+* Other Offences:
+
+    + . . .
+
+    + Section 106A of [the Taxes Management Act 1970](http://bit.ly/2dYpwD): Fraudulent evasion of income tax
+
+    + Sections 170(1)(a)(i), (ii), (b), 170(2)(a), 170B of [the Customs and Excise Management Act 1979](http://bit.ly/2eMUelo): Fraudulent evasion of excise duty
+
+    + Section 50(1)(a), (2) of [the Customs and Excise Management Act 1979](http://bit.ly/2eiyV): Improper importation of goods
+
+    + . . .
+
+---
+
+# Fiscal and non-fiscal fraud
+
+* Other Offences:
+
+    + . . .
+  
+    + Section 144 of [the Finance Act 2000](http://bit.ly/2deWQTx): Fraudulent evasion of income tax (relocated as section 106A of TMA 1970 as amended);
+
+    + Cheating the public revenue (Common Law);
+
+    + Section 111A of [the Social Security Administration Act 1992](http://bit.ly/2eMYykw): Dishonest representations to obtain benefit, etc
+
+    + Section 112 of the [Social Security Administration Act 1992](http://bit.ly/2eMYykw): False representations for obtaining benefit, etc
+
+    + . . ..
+
+---
+
+# Fiscal and non-fiscal fraud
+
+* Fiscal fraud is against government: some recent news
+
+    + [News 1](http://bit.ly/2dZRS1q)
+  
+    + [News 2](http://bit.ly/2evfKe0)
+  
+    + [News 3](http://bit.ly/2dZSZhP)
+
+---
+
+# Fraudulent evasion methods:
+
+* Evasion by concealment, e.g. partially or entirely removing matters subjected to payment of tax, or by completing and submitting incorrect documents, or by failure to produce documents required by law;
+
+* Hiding the true nature of an organism or a contract to get rid of certain tax consequences;
+
+* Accounts evasion to create the impression of a correct accounts; using false documents in order to increase spending, reduce revenue, reduce taxable income and therefore the tax liability owed to the state;
+
+* . . .
+
+.footnote[
+&lt;sup&gt;&lt;/sup&gt; Coca, Ulian and Faida, Tax Evasion: an integral part of corruption, Performance and Risks in the European Economy, Vol 9 (2014).
+]
+
+---
+
+# Fraudulent evasion methods:
+
+* . . .
+
+* Evasion through evaluation, which consists in the reduction of inventories, overestimation of amortisation and provisions, in order to drive profits in the future.
+
+.footnote[
+&lt;sup&gt;&lt;/sup&gt; Coca, Ulian and Faida, Tax Evasion: an integral part of corruption, Performance and Risks in the European Economy, Vol 9 (2014).
+]
+
+---
+
+# Importance of financial crime regulations
+
+* National level (public and private sector): financial crime
+
+    + Corrupt and destabilise communities or national economies;
+
+    + Weaken financial systems;
+
+    + Erode integrity of financial institutions;
+
+    + Threaten national security (terrorists need money and resources).
+
+---
+
+# Importance of financial crime regulations
+
+* Individual level: financial crime
+
+    + Reduced flow of wealth between generations in families;
+
+    + (government loss of tax revenue through inheritance tax;)
+
+    + Victims may become dependent on state funding;
+
+    + Harm to reputation of individuals and organisations (if financial crime was committed by professional);
+  
+    + Outrage, anger, fear, stress, anxiety and depression.
+
+---
+
+# Some legislations with offences for financial crimes
+
+* [Companies Act 1980](http://www.legislation.gov.uk/ukpga/1980/22/contents/enacted)
+
+* Theft Act 1968
+
+* [Theft Act 1978](http://bit.ly/2e0zRhW)
+
+* [Theft (Amendment) Act 1996](http://bit.ly/2dNwDwE)
+
+* [Identity Card Act 2006 (repealed)](http://bit.ly/2eglJ5O)
+
+* [Identity Document Act 2010](http://bit.ly/2dztEdC)
+
+* [Computer Misuse Act 1990](http://bit.ly/1gVidU2)
+
+* [Forgery &amp; Counterfeiting Act 1981](http://bit.ly/11wTKoz)
+
+* [Data Protection Act 1998](http://bit.ly/18Er0gh)
+
+---
+
+# Companies Act 1980
+
+* (Sections 39 - 45) Restrictions on distribution of profits and assets
+
+* (Sections 46 - 67) Duties of directors and conflict of Interests
+
+* (Sections 68 - 73) Insider dealing
+
+.footnote[
+&lt;sup&gt;&lt;/sup&gt; [Companies Act 1980](http://bit.ly/2e6trM6)
+
+&lt;sup&gt;&lt;/sup&gt; M. Freeman Durham, The Companies Act, 1980: its effect on British Corporate Law, Northwestern Journal of International Law &amp; Business, Vol.4, Issue 2, 1982, 551 – 585.
+]
+---
+
+# Theft Act 1968
+
+* (Section 17) [False accounting](http://bit.ly/2dyNK7P)
+
+* (Section 18) [Liability of company officers for certain offences by company (committed with the consent or connivance of any director, secretary, etc.)](http://bit.ly/2e612f3)
+
+* (Section 19) [False statements by company directors](http://bit.ly/2ejt8PM)
+
+* (Sections 68 - 73) Insider dealing
+
+---
+
+name: mon-launder
+
+class: inverse, center, middle
+
+# Money laundering
+
+---
+
+# Introduction: Money Laundering
+
+&gt; “Money laundering can be defined as the process utilised by criminals to disguise or convert the proceeds of crime (dirty money) into clean money. In this sense, the term ‘criminal’ can include drug dealers, burglars, fraudsters, people traffickers, smugglers, terrorists, extortionists, tax evaders and illegal arm dealers, but can also include lawyers, accountants, financial experts and many other intermediaries.” (why ‘wash’ the money?)&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Harrison &amp; Ryder, The Law Relating to Financial Crime in the United Kingdom, 2nd edition. Chapter 2: Money Laundering
+]
+
+---
+
+# Money laundering activities on or after 23 February 2003
+
+* [Proceeds of Crime Act 2002](http://bit.ly/1fF1Mhp): 3 principal offences
+
+    + (Section 327) concealing, disguising, converting, transferring or removing criminal property from the jurisdiction;
+
+    + (Section 328) entering into or becoming concerned in an arrangement knowing or suspecting it to facilitate the acquisition, retention, use or control of criminal property by or on behalf of another person.
+
+    + (Section 329) acquiring, using or possessing criminal property
+
+---
+
+name: mon-launder
+
+class: inverse, center, middle
+
+# Financing terrorism
+
+---
+
+# Introduction: financing terrorism
+
+* [Terrorism Act 2000](http://bit.ly/2dIBH8l), 20 July 2000, principal criminal offences
+
+&gt; “The Act (Terrorism Act 2000) reforms and extends previous counter-terrorist legislation, and puts it largely on a permanent basis. The previous legislation concerned is:
+
+&gt; 1. the Prevention of Terrorism (Temporary Provisions) Act 1989;
+
+&gt; 2. the Northern Ireland (Emergency Provisions) Act 1996; and
+
+&gt; 3. sections 1 to 4 of the Criminal Justice (Terrorism and Conspiracy) Act 1998.&lt;sup&gt;1&lt;/sup&gt;"
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Harrison &amp; Ryder, The Law Relating to Financial Crime in the United Kingdom, 2nd edition. Chapter 3: Terrorist Financing
+]
+
+---
+
+# Introduction: financing terrorism
+
+* [Terrorism Act 2000](http://bit.ly/2dIBH8l), 20 July 2000, principal criminal offences
+
+&gt; “The principal criminal offences relating to terrorist financing can be found in sections 15 – 18 of the Terrorism Act 2000 . . . These include: raising, receiving or providing funds for the purpose of terrorism (section 15); using or possessing funds for the purpose of terrorism (section 16); becoming involved in an arrangement which make funds available for the purposes of terrorism (section 17); and facilitating the laundering of terrorist property and money (section 18). . . .”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Harrison &amp; Ryder, The Law Relating to Financial Crime in the United Kingdom, 2nd edition. Chapter 3: Terrorist Financing
+]
+
+---
+
+# Introduction: financing terrorism
+
+* [Terrorism Act 2000](http://bit.ly/2dIBH8l), 20 July 2000, principal criminal offences:
+
+&gt; “. . .(section 18). Additional offences include failing to disclose information about the occurrence of terrorist financing (sections 19 and 21A) and, for those working in the regulated financial sector, the offence of tipping off (section 21D). Any person does anything outside of the UK that would have been an offence under sections 15 – 18 of the Act within the UK, they will also be guilty of an offence (section 63).”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Harrison &amp; Ryder, The Law Relating to Financial Crime in the United Kingdom, 2nd edition. Chapter 3: Terrorist Financing
+]
+
+---
+
+# Financial institutions and regulatory bodies
+
+* HM Treasury
+
+* Home Office
+
+* Foreign and Commonwealth Office 4. National Crime Agency
+
+---
+
+name: bribe
+
+class: inverse, center, middle
+
+# Bribery
+
+---
+
+# Introduction: bribery
+
+* [Bribery Act 2010](http://bit.ly/1FIc0c7) wef 8 April 2010
+
+* Risks of Corruption and Bribery
+
+&gt; “Bribery undermines democracy and the rule of law and poses very serious threats to sustained economic progress in developing and emerging economies and to the proper operation of free markets more generally.” “The Act contains two general offences covering the offering, promising or giving of a bribe (active bribery) and the requesting, agreeing to receive or accepting of a bribe (passive bribery) at sections 1 and 2 respectively. It also sets out two further offences which specifically address commercial bribery.”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Harrison &amp; Ryder, The Law Relating to Financial Crime in the United Kingdom, 2nd edition. Chapter 4: Bribery and Corruption
+]
+
+---
+
+# Introduction: bribery
+
+* [Ministry of Justice, The Bribery Act 2010: Guidance about procedures for prevention](http://bit.ly/1fmzCor)
+
+* Appendix A gives 11 case studies
+
+---
+
+# Bribery Act 2010: wef 8 April 2010
+
+* (Section 1) offers, promises or gives a financial or other advantage to another person in one of the two possible circumstances, Case 1 and Case 2;
+
+* (Section 2) requests, agrees to receive or accepts a financial or other advantage in one of the four possible circumstances, Case 3, Case 4, Case 5 and Case 6;
+
+* (Section6) bribes a foreign public official with intention to influence the official in his capacity as a foreign public official.
+
+* . . .
+
+---
+
+# Bribery Act 2010: wef 8 April 2010
+
+* . . . 
+
+* (Section 7) “Failure of commercial organisations to prevent bribery” - A relevant commercial organisation can also be found guilty of an offence is a person associated with the organisation bribes another, intending to obtain or retain business or a business advantage for that organisation.
+
+---
+
+# Financial Institutions and Regulatory Bodies
+
+* Serious Fraud Office
+
+* Financial Conduct Authority
+
+* Financial Services Authority
+
+* City of London Police
+
+---
+
+name: fraud-offence
+
+class: inverse, center, middle
+
+# Offence of fraud
+
+---
+
+# Fraud Act 2006
+
+* [Fraud Act 2006](http://bit.ly/1vsRnMz). What is the offence of fraud since 15 January 2007
+
+* A single primary offence of fraud, contained in section 1 of the Fraud Act 2006.
+
+* The offence can be committed in 3 different ways:
+
+    + by a false representation (section 2);
+
+    + by a failure to disclose information when there is a legal duty to do so (section 3);
+  
+    + by abuse of a position (section 4).
+
+.footnote[
+&lt;sup&gt;&lt;/sup&gt; Harrison &amp; Ryder, The Law Relating to Financial Crime in the United Kingdom, 2nd edition. Chapter 4: Fraud
+]
+---
+  
+# Some secondary offences including:
+
+* possession or control of articles for use either in the course of or in connection with frauds (section 6);
+
+* making, adapting, supplying or offering to supply articles for use in frauds (section 7);
+
+* participating in fraudulent trading as a sole trader (section 9);
+
+* obtaining services dishonestly where the defendant either intends not to pay or not to pay in full (section 11).
+
+---
+
+# Fraud by false representation (section 2)
+
+* Dishonestly made a false representation; AND
+
+* Intended by making that false representation:
+
+    + make a gain (for themselves or any other person); OR
+  
+    + cause or expose an individual to the risk of a loss.
+
+---
+
+# Fraud by false representation (section 2)
+
+* Offender focused and a conduct crime
+
+&gt; “The offence is entirely offender focused; as long as a false representation is actually made and the requisite dishonest intention element exists, the offence is made out. There is no need, therefore, to prove that an actual gain or loss was achieved, making this offence a conduct crime rather than a result crime . . . .”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Harrison &amp; Ryder, The Law Relating to Financial Crime in the United Kingdom, 2nd edition. Chapter 4: Fraud
+]
+
+---
+
+# Fraud by false representation (section 2)
+
+* What is a representation
+
+* A representation is “any representation, implied or expressed (can be made through an omission), as to fact or law, including a representation as to the state of mind of:”
+
+    + “the person making the representation; or
+  
+    + any other person.”
+
+---
+
+# False representation to a machine?
+
+* If a person makes a false representation to a CHIP and PIN device or ATM machine, does he commit the offence of fraud contrary to the Fraud Act 2006?
+
+* What if gives false credit card details to the voice activated software on a telephone lie?
+
+* What if gives false credit card details to a supermarket website to obtain groceries?
+
+---
+
+# False representation to a machine? (section 2(5))
+
+* Yes, in UK
+
+&gt; “. . . a representation may be regarded as made if it (or anything implying it) is submitted in any form to any system or device designed to receive, convey or respond to communications (with or without human intervention).”
+
+---
+
+# Fraud by false representation (section 2)
+
+* False? (section 2(2))
+
+* “Representations are deemed to be false when they are:”
+
+    + ““misleading or untrue”; AND
+
+    + the defendant knows or thinks this to be the case.”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Harrison &amp; Ryder, The Law Relating to Financial Crime in the United Kingdom, 2nd edition. Chapter 4: Fraud
+]
+
+---
+
+# Knowledge of defendant:
+
+&gt; “A person may have reasonable grounds to suspect that property is one thing (A) when in fact it is something different (B). But that is not so when the question is what a person knows. A person cannot know that something is (A) when in fact it is (B). The proposition that a person knows that something is (A) is based on the premise that it is true that it is (A). The fact that the property is (A) provides the starting point. Then there is the question whether the person knows that the property is (A).” - [R v Montila (Steven William) (2004) 1 WLR 3141](http://bit.ly/2dVPAxE)
+
+---
+
+# Defendant knows the representation is “misleading or untrue”
+
+&gt; The proposition that a person (defendant) knows that something (the representation) is (A) (“misleading or untrue”) is based on the premise that it is true that it (the representation) is (A) (“misleading or untrue”). So, it is necessary to prove that the representation is misleading or untrue.&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Harrison &amp; Ryder, The Law Relating to Financial Crime in the United Kingdom, 2nd edition. Chapter 4: Fraud
+]
+
+---
+
+# Dishonesty: 
+
+* R v Ghosh [1982] 1 QB 1053
+
+&gt; “. . . a jury must first of all decide whether according to the ordinary standards of reasonable and honest people what was done was dishonest. If it was not dishonest by those standards, that is the end of the matter and the prosecution fails. If, however, it was dishonest by those standards, then the jury must consider whether the defendant himself must have realised that what he was doing was by those standards dishonest. ”
+
+---
+
+# Dishonesty
+
+* [Ivey (Appellant) v Genting Casinos (UK) Ltd t/a Crockfords (Respondent) [2017] UKSC 67](http://bit.ly/2zCiYD8)
+
+* 25 October 2017
+
+&gt; However, the second leg of the rule adopted in Ghosh has serious problems. The principal objection is that the less a defendant’s standards conform to society’s expectations, the less likely they are to be held criminally responsible for their behaviour. The law should not excuse those who make a mistake about contemporary standards of honesty, a purpose of the criminal law is to set acceptable standards of behaviour.&lt;sup&gt;1&lt;sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; [Press Summary, The Supreme Court, 25 October 2017](http://bit.ly/2gPMIJ5)
+]
+
+---
+
+# Dishonesty
+
+* [Ivey (Appellant) v Genting Casinos (UK) Ltd t/a Crockfords (Respondent) [2017] UKSC 67](http://bit.ly/2zCiYD8)
+
+* 25 October 2017
+
+&gt; In civil actions the law has settled on an objective test of dishonesty. There can be no logical or principled basis for the meaning of dishonesty to differ according to whether it arises in a civil action or a criminal prosecution. The second leg of the test propounded in Ghosh does not correctly represent the law and directions based upon it ought no longer to be given. The test of dishonesty is that used in civil actions. The fact-finding tribunal must ascertain (subjectively) the actual state of the individual’s knowledge or belief as to the facts and then determine whether his conduct was honest or dishonest by the (objective) standards of ordinary decent people. There is no requirement that the defendant must appreciate that what he has done is, by those standards, dishonest.&lt;sup&gt;1&lt;sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; [Press Summary, The Supreme Court, 25 October 2017](http://bit.ly/2gPMIJ5)
+]
+
+
+---
+
+# Fraud by failing to disclose information (section 3)
+
+* Lying by omission
+
+&gt; “The defendant must have dishonestly failed to disclose to another person information that they were under a legal duty to disclose and by this failure intended to make a gain for themselves or another, or cause a loss or the risk of a loss to another.”
+
+* Offender focused and a conduct crime
+
+&gt; “. . . the offence is offender focused with it being unnecessary to prove either that someone was misled or that a loss or gain was actually made.”
+
+---
+
+# Fraud by failing to disclose information (section 3)
+
+* Extent and nature of legal duty
+
+&gt; “Section 3 makes it an offence to commit fraud by failing to disclose information to another person where there is a legal duty to disclose the information. A legal duty to disclose information may include duties under oral contracts as well as written contracts. The concept of “legal duty” is explained in the Law Commission’s Report on Fraud, which said at paragraphs 7.28 and 7.29:”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; [Explanatory Notes to Fraud Act 2006](http://bit.ly/2dFc2jc)
+]
+
+---
+
+# Extent and nature of legal duty
+
+&gt; “7.28 . . . Such a duty may derive from statute (such as the provisions governing company prospectuses), from the fact that the transaction in question is one of the utmost good faith (such as a contract of insurance), from the express or implied terms of a contract, from the custom of a particular trade or market, or from the existence of a fiduciary relationship between the parties (such as that of agent and principal).”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; [Explanatory Notes to Fraud Act 2006](http://bit.ly/2dFc2jc)
+]
+
+---
+
+# Extent and nature of legal duty
+
+&gt; “7.29. For this purpose there is a legal duty to disclose information not only if the defendant’s failure to disclose it gives the victim a cause of action for damages, but also if the law gives the victim a right to set aside any change in his or her legal position to which he or she may consent as a result of the non-disclosure. For example, a person in a fiduciary position has a duty to disclose material information when entering into a contract with his or her beneficiary, in the sense that a failure to make such disclosure will entitle the beneficiary to rescind the contract and to reclaim any property transferred under it.”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; [Explanatory Notes to Fraud Act 2006](http://bit.ly/2dFc2jc)
+]
+
+---
+
+# Extent and nature of legal duty
+
+&gt; “For example, the failure of a solicitor to share vital information with a client within the context of their work relationship, in order to perpetrate a fraud upon that client, would be covered by this section. Similarly, an offence could be committed under this section if a person intentionally failed to disclose information relating to his heart condition when making an application for life insurance.”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; [Explanatory Notes to Fraud Act 2006](http://bit.ly/2dFc2jc)
+]
+
+---
+# Extent and nature of legal duty
+
+&gt; “The information that is not disclosed does not have to be material or relevant; there is no de minimis provision and it is not a defence to claim ignorance of the duty or incompetence in supplying information.”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; [Explanatory Notes to Fraud Act 2006](http://bit.ly/2dFc2jc)
+]
+---
+
+# Fraud by abuse of position (section 4)
+
+* Offence by omission and positive act
+
+&gt; “The defendant must occupy a position ‘in which he is expected to be safeguard, or not act against, the financial interests of another person’; they must dishonestly abuse this position; and through this abuse intended to either make a gain for themselves or another or cause a loss or risk the causing of a loss.”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; [Law Reform Commission on Fraud](http://bit.ly/2dR9BIy)
+]
+
+---
+
+# Fraud by abuse of position (section 4)
+
+* Offender focused and a conduct crime
+
+&gt; “This can also be carried out through omission rather than by a positive act. Also, as with the other two offences, this too is offender focused.”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; [Law Reform Commission on Fraud](http://bit.ly/2dR9BIy)
+]
+
+---
+
+# Fraud by abuse of position (section 4)
+
+* Position that the defendant must occupy
+
+&gt; “The necessary relationship will be present between trustee and beneficiary, director and company, professional person and client, agent and principal, employee and employer, or between partners. It may arise otherwise, for example within a family, or in the context of voluntary work, or in any context where the parties are not at arm’s length. In nearly all cases where it arises, it will be recognised by the civil law as importing fiduciary duties, and any relationship that is so recognised will suffice. We see no reason, . . . ”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; [Law Reform Commission on Fraud](http://bit.ly/2dR9BIy)
+]
+
+---
+
+#Fraud by abuse of position (section 4)
+
+* Position that the defendant must occupy
+
+&gt; “ . . . We see no reason, however, why the existence of such duties should be essential. This does not of course mean that it would be entirely a matter for the fact-finders whether the necessary relationship exists. The question whether the particular facts alleged can properly be described as giving rise to that relationship will be an issue capable of being ruled upon by the judge and, if the case goes to the jury, of being the subject of directions.”&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; [Law Reform Commission on Fraud](http://bit.ly/2dR9BIy)
+]
+
+---
+
+# Fraud by abuse of position (section 4)
+
+* Non-exhaustive list of examples of position that the defendant must occupy&lt;sup&gt;1&lt;/sup&gt;:
+
+    + An employee of a software company who uses his position to clone software products with the intention of selling the products on his own behalf;
+
+    + Where a person is employed to care for an elderly or disabled person and has access to that person’s bank account but abuses that position by removing funds for his own personal use. (This may also be theft);
+
+    + . . .
+  
+  
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Harrison &amp; Ryder, The Law Relating to Financial Crime in the United Kingdom, 2nd edition. Chapter 4: Fraud
+]
+
+---
+
+# Fraud by abuse of position (section 4)
+
+* Non-exhaustive list of examples of position that the defendant must occupy&lt;sup&gt;1&lt;/sup&gt;:
+
+    + . . .
+
+    + An attorney who removes money from the grantor’s accounts for his own use. The Power of Attorney allows him to do so but when excessive this will be capable of being an offence under Section 4;
+
+    + An employee who fails to take up the chance of a crucial contract in order that an associate or rival company can take it up instead;
+
+    + A trustee who dishonestly acts outside the terms of a trust deed in order to produce a gain or loss for himself or others;
+
+    + . . .
+  
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Harrison &amp; Ryder, The Law Relating to Financial Crime in the United Kingdom, 2nd edition. Chapter 4: Fraud
+]
+
+---
+  
+# Fraud by abuse of position (section 4)
+
+* Non-exhaustive list of examples of position that the defendant must occupy&lt;sup&gt;1&lt;/sup&gt;:
+
+    + . . .
+
+    + A director of a company who dishonestly makes use of knowledge gained as a director to make a personal gain;
+
+    + An employee who abuses his position in order to grant contracts or discounts to friends, relatives and associates;
+
+    + A waiter whose has his own bottles of wine passing them off as belonging to the restaurant R v Doukas [1978] 1 All E.R. 1071.;
+
+    + . . .
+  
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Harrison &amp; Ryder, The Law Relating to Financial Crime in the United Kingdom, 2nd edition. Chapter 4: Fraud
+]
+
+---
+  
+# Fraud by abuse of position (section 4)
+
+* Non-exhaustive list of examples of position that the defendant must occupy&lt;sup&gt;1&lt;/sup&gt;:
+
+    + . . .
+
+    + A tradesman who helps an elderly person with odd jobs, gains influence over that person and removes money from their account (This may also be theft);
+
+    + The person entrusted to purchase lottery tickets on behalf of others (This may also be theft).
+
+.footnote[
+&lt;sup&gt;1&lt;/sup&gt; Harrison &amp; Ryder, The Law Relating to Financial Crime in the United Kingdom, 2nd edition. Chapter 4: Fraud
+]
+
+---
+# Policy background Policy background
+
+* The UK Government’s policy on the reform of the criminal law of fraud is largely based on the Law Commission’s Report on Fraud (Law Com No. 276, Cm 5560, 2002).
+
+* In 2006, fraud became a major policy goal of the UK Government.
+
+* The Fraud Review concluded that the government has two functions:
+
+    + to protect public money from fraudsters; and
+  
+    + to protect customers and businesses against fraud.
+
+---
+
+# The Fraud Review
+
+* The Fraud Review recommended creation of:
+
+    + The National Fraud Authority to develop and implement the government strategy;
+
+    + The National Fraud Reporting Centre so that businesses and individuals could report fraud (This resulted in the creation of the National Fraud Intelligence Bureau).
+
+    + a national lead police authority based on the City of London Police.
+
+---
+
+# Objectives of the National Fraud Authority
+
+* To create a criminal justice system that is sympathetic to the needs of the victims of fraud by ensuring that the system operates more effectively and efficiently;
+
+* To attempt to discourage organised criminals from committing fraud in the UK; and
+
+* To increase the public’s confidence in the response to fraud
+
+---
+
+# National Fraud Authority
+
+* Published [National Fraud Strategy](http://bit.ly/2dW0uDH):
+
+    + Tackling the threat of fraud;
+  
+    + Acting effectively to pursue fraudsters and holding them to account;
+  
+    + Improving the support available to victims;
+  
+    + Reducing the UK’s exposure to fraud;
+  
+    + Targeting acting against fraud more effectively.
+
+---
+
+# UK legislative framework prior to Fraud Act 2006
+
+* 98 offences, including 8 deception offences, created by the Theft Acts of 1968 and 1978;
+
+* The common law offence of conspiracy to defraud
+
+---
+
+# Difficulties of the Theft Acts
+
+* Difficult to enforce;
+
+* Notoriously technical;
+
+* Over-particularised;
+
+* Difficult to interpret;
+
+* Did not meet the need of developing technology including electronic means of transfer.
+
+.footnote[
+&lt;sup&gt;&lt;/sup&gt; P. Kiernan and G. Scalan, Fraud and the law commission: the future of dishonesty, (2003) Journal of Financial Crime, 10(3), 199 –208.
+
+&lt;sup&gt;&lt;/sup&gt; D. Ormerold, The Fraud Act 2006 - criminalising lying? (2007) Criminal Law Review, March, 193 – 219.
+]
+
+---
+
+# Serious Fraud Office
+
+* In 1983, the Fraud Trials Committee was set up to consider the introduction of more effective means of fighting fraud (commonly known as The Roskill Committee, the Roskill Report)
+
+* Created by the Criminal Justice Act 1987;
+
+* An independent governmental department that had both investigative and prosecutorial powers (cooperation and interchange of information amongst law enforcement authorities were inefficient and unsatisfactory).
+
+* (In September 2007, in the midst of criticism of SFO, the Crown Prosecution Service (CPS) created the Fraud Prosecution Unit (now called Fraud Prosecution Division)).
+
+---
+
+# SFO case acceptance
+
+* [Statement of Principle](http://bit.ly/2yQjfp9):
+
+    + Whether the apparent criminality undermines UK PLC commercial or financial interests in general and in the City of London in particular,
+  
+    + Whether the actual or potential financial loss involved is high,
+  
+    + Whether actual or potential economic harm is significant,
+  
+    + Whether there is a significant public interest element, and
+  
+    + Whether there is new species of fraud
+
+---
+
+# Financial Services Authority
+
+* [Financial Services Authority](http://bit.ly/1ndbwYD) has now become 2 separate authorities, the Financial Conduct Authority and The Prudential Regulation Authority
+
+*  The [Financial Services &amp; Markets Act 2000](http://bit.ly/2dEUYHD) (An Act to make provision about the regulation of financial services and markets . . .);
+
+* Statutory objective: reduce financial crime, which included fraud;
+
+* Prosecuting authority for both money laundering and certain fraud related (see further discussion);
+
+* Power to impose a financial penalty;
+
+* Power to ban authorised persons and firms from undertaking any regulated activity.
+
+---
+
+# Financial Services Authority fraud policy
+
+* A direct approach;
+
+* Increased supervisory activity;
+
+* Promoting a more joined up approach (liaising closely with the financial sector and other interested parties);
+
+* FSA Handbook modifications (codification and clarification of the fraud risk management provisions of the Handbook).
+
+---
+
+# Financial Services Authority
+
+* Prosecute a wide range of offences:
+
+    + Part V of the [Criminal Justice Act 1993](http://bit.ly/2d3QFXj) (insider dealing), regulations relating to money laundering; schedule 7 to the [Counter-Terrorism Act 2008](http://bit.ly/2dQmSig) (terrorist financing or money laundering)
+
+    + Offences listed in [FS&amp;MA 2000](http://bit.ly/2e1Ibl3). 
+
+---
+
+# Power of FSA
+
+&gt; “. . . we cannot prosecute most types of fraud and dishonesty . . . in contrast with money laundering; we have no direct powers to prosecute fraud or dishonesty offences. Prosecution is the responsibility of other law enforcement agencies.” [FSA Report](http://bit.ly/2ds3jLV)
+
+---
+
+# Power of FSA
+
+
+&gt; “My understanding is that the FSA is not able to bring a criminal case in the UK. If it falls within the category of fraud, which is a general category of malfeasance quite separate from financial regulation, the Serious Fraud Office has a right to look at it . . .” [Lord Turner, former chairman of FSA, paragraph 200](http://bit.ly/2e1JH6I)
+
+---
+
+# Power of FSA
+
+&gt; “we are not a general fraud prosecutor. We have specific powers to prosecute particular offences, and I am sure that you will be aware that we have spent quite a lot of time and energy on prosecuting both section 397 offences and indeed insider dealing offences in recent years. What we do not have is a remit to prosecute false accounting, conspiracy and so on in a general sense. We could prosecute it as ancillary to one of our main offences, so if there was a markets offence, you could throw in money laundering as well, but our investigative powers are limited to the offences that we have the ability to prosecute.” [Tracey McDermott of FSA, paragraph 200](http://bit.ly/2e1JH6I)
+
+---
+
+# Power of FSA
+
+
+Tracey McDermott of FSA
+
+&gt; “Tracey McDermott subsequently confirmed that the FSA was also able to prosecute non-financial market offences in its capacity as a private prosecutor. This is consistent with the ruling of the Supreme Court in the case of R v Rollins in 2010. However, when asked whether there was enough evidence of fraudulent conduct to commence a criminal prosecution in this case, Tracy McDermott responded that “[this] is not our specialist area of expertise. It is not where our fees are raised to prosecute, that is to focus on the FSMA offences”.”  [Tracey McDermott of FSA, paragraph 201](http://bit.ly/2e1JH6I)
+
+
+.footnote[
+&lt;sup&gt;&lt;/sup&gt; [R v Rollins [2010] UKSC 39, paragraph 17](http://bit.ly/2dZrKSL)
+
+]
+
+---
+
+# What had FSA done?
+
+* In March 2000, FSA successfully prosecuted Paul Haslam for breaches of the Banking Act 1987 (Section 249 of the Banking Act 2009 conferred certain functions on FSA!).
+
+* In February 2008, FSA successfully prosecuted William Anthony Robin Radclyffe for a series of offences under the Theft Acts, the Financial Services Act 1986 and FS&amp;MA 2000.
+
+---
+
+# Financial Conduct Authority
+
+* [Financial Services Act 2012](http://www.legislation.gov.uk/ukpga/2012/21/contents)
+
+* An Act to amend the Bank of England Act 1998, the Financial Services and Markets Act 2000 and the Banking Act 2009.
+
+* “The body corporate previously known as the Financial Services Authority is renamed as the [Financial Conduct Authority](http://bit.ly/2e3MI46).” (section 1A of FSA 2012)
+
+* Strategic objective: ensuring relevant market function well (section 1B(1))
+
+* Relevant market (section 1F)
+
+* Operational objective:
+
+    + The consumer protection objective (section 1C);
+  
+    + The integrity objective (section 1D);
+  
+    + The competition objective (section 1E).
+
+---
+
+# FCA Wide range of enforcement powers
+
+* Criminal, civil and regulatory:
+
+    + Withdrawing a firm’s authorisation;
+
+    + Prohibiting individuals from carrying on regulated activities;
+
+    + Suspending firms or individuals from undertaking regulated activities;
+
+    + Issuing fines against firms or individuals who breach our rules or commit market abuse;
+  
+    + Issuing fines against firms breaching competition laws;
+
+    + . . .
+
+---
+
+# FCA Wide range of enforcement powers
+
+* Criminal, civil and regulatory:
+
+    + . . .
+  
+    + Making a public announcement when we begin disciplinary action and publish details of warning, decision and final notices;
+
+    + Applying to the courts for injunctions, restitution orders, winding-up and other insolvency orders;
+
+    + Bringing criminal prosecutions to tackle financial crime, such as insider dealing, unauthorised business and false claims to be FCA authorised; and
+
+    + Issuing warnings and alerts about unauthorised firms or individuals and requesting that web hosts deactivate associated websites.
+
+---
+
+# National Fraud Authority
+
+* formerly named as National Fraud Strategic Authority
+
+* National Fraud Authority closed on 31 March 2014
+
+* Created in October 2008, in response to the Fraud Review 2006.
+
+
+---
+
+# National Fraud Authority
+
+* Executive agency of UK Home Office, with objectives (summarised by Professor Barry Rider):
+
+    + tackling the key threats of fraud that pose the greatest harm to the UK;
+
+    + pursuit of fraudsters effectively, holding them to account and improving victim support; 
+  
+    + reduction of UK’s exposure to fraud by building, sharing and acting on knowledge; and 
+  
+    + securing the international collaboration necessary to protect the UK from fraud.
+
+.footnote[
+&lt;sup&gt;&lt;/sup&gt; B. Rider, A bold step? (2009) Company Lawyer, 30(1), 1 – 2.
+]
+
+---
+
+# National Fraud Authority
+
+* National Fraud Authority closed on 31 March 2014
+
+* Functions of NFA transferred to National Crime Agency (NCA) and Home Office.
+
+* NCA will be discussed in “Money Laundering”.
+
+* Will SFO be also abolished?
+
+* In May 2010, the Coalition government (Conservatives and Liberal Democracy) published its Coalition Agreement and proposed to tackle economic crime by merging SFO, FSA and Office of Fair Trading into a new proposed Economic Crime Agency (ECA) by 2011.
+
+* . . .
+
+---
+
+# National Fraud Authority
+
+* . . .
+
+* The proposal mutated to form the NCA, other than a single agency.
+
+* In June 2010, Home Secretary created the NCA following the enactment of the [Crime and Courts Act 2013](http://bit.ly/2d94jDF)
+
+---
+
+# Sentencing guidelines: section 1 Fraud Act 2006
+
+* Decide seriousness of the offending behaviour by looking at the culpability (role of offender; extent to which the offence was plan; how sophisticated the offence was, etc.) of the offender and the level of harm caused or risked being caused.
+
+* Choose a starting point and range for each harm category and culpability.
+
+* Any circumstances, such as assisting the prosecution, which might reduce the sentence.
+
+* Further reduction be given for a guilty plea.
+
+* Whether total sentence for all offences committed is appropriate.
+
+* Confiscation, compensation and other ancillary orders.
+
+---
+
+name: fraud-offence
+
+class: inverse, center, middle
+
+# Managing fraud risk
+---
+
+# Clear awareness of responsibility at three levels
+
+* Responsibility Framework, Effective Risk Management&lt;sup&gt;1&lt;/sup&gt;:
+
+    + the board of directors and senior managers;
+
+    + line managers and departmental head;
+  
+    + every individual member of staff
+
+.footnote[
+&lt;sup&gt;&lt;/sup&gt; Steve Giles, 1st edition, Managing Fraud Risk: A Practical Guide for Directors and Managers, Chapter 1: Responsibility
+]
+
+---
+
+# Clear awareness of responsibility at three levels
+
+* The board of directors and senior managers;
+
+    + Establish the values of an organisation and set policy;
+  
+    + Ultimate responsibility for managing risk and putting in place an appropriate system of internal controls
+
+---
+
+# Clear awareness of responsibility at three levels
+
+* Line managers and departmental head;
+
+    + Implement board policies on risk and control
+
+    + Identify and evaluate the risks faced
+
+    + Design, operate and monitor suitable system of internal control
+
+---
+
+# Modern internal controls frameworks
+
+* [COSO](http://bit.ly/2doHuPW): Committee of Sponsoring Organizations of the Treadway Commission–1992 (US)
+
+* Created by five private sector organisations:
+
+    + [American Accounting Association](http://bit.ly/2e2I0Eg)
+
+    + [American Institute of CPAs](http://bit.ly/1bkOHof)
+
+    + [Financial Executives International](http://bit.ly/2enZTyy)
+
+    + [The Association of Accountants and Financial Professionals in Business](http://bit.ly/24tOZZ5)
+  
+    + [The Institute of Internal Auditor](http://bit.ly/2e2IHgR)
+
+---
+
+# Modern internal controls frameworks
+
+* [COSO](http://bit.ly/2doHuPW): Committee of Sponsoring Organizations of the Treadway Commission–1992 (US)
+
+* Provides thought leadership through the development of frameworks and guidance on enterprise risk management, internal control and fraud deterrence.
+
+* In 1992, COSO published “Internal Control - Integrated Framework (1992 Edition)”
+
+* The 1992 Framework has become the most widely adopted framework worldwide.
+
+* In 2012, [Enhancing Board Oversight: Avoiding Judgment Traps and Biases](http://bit.ly/2yR50k2)
+
+---
+
+# Modern internal controls frameworks
+
+* [COSO](http://bit.ly/2doHuPW): Committee of Sponsoring Organizations of the Treadway Commission–1992 (US)
+
+* In 2013, COSO published “Internal Control - Integrated Framework (201 Edition)” (the Updated Framework) (not mentioned in Chapter 6)
+
+* In 2014 [Improving Organisational Performance and Governance: How the COSO Frameworkds can Help](http://bit.ly/2sPPhP4)
+
+* In 2015 [COSO in the Cyber Age: Report Offers Guidance on Using Framewlrks to Assess Cyber Risks](http://bit.ly/2mDqdrX)
+
+* In 2017 [Enterprise Risk Management Integrating with Strategy and Performance](http://bit.ly/2gMHHR1)
+
+---
+
+# Modern internal controls frameworks
+
+* [COSO](http://bit.ly/2doHuPW): Committee of Sponsoring Organizations of the Treadway Commission–1992 (US)
+
+* Five components of the 1992 Framework
+
+    + Control environment
+  
+    + Risk assessment
+
+    + Control activities
+
+    + Information and Communication
+  
+    + Monitoring
+
+---
+
+# Modern internal controls frameworks
+
+* The Cadbury Report (1992); The Greenbury Report (1995); The Hampel Report (1998)
+
+    + Sudden financial collapses of two companies, wallpaper group Coloroll and Asil Nadir’s Polly Peck consortium;
+
+    + Increasing lack of investor confidence in the honesty and accountability of listed companies;
+
+    + 1991, the Financial Reporting Council, the London Stock Exchange, and the accountancy profession established the Committee on the Financial Aspects of Corporate Governance (known as the Cadbury Committee after Adrian Cadbury, the Chairman)
+  
+    + The Cadbury Committee recommended a “Code of Best Practice” to achieve high standards of corporate behaviour.
+
+    + . . . 
+
+---
+
+# Modern internal controls frameworks
+
+* The Cadbury Report (1992); The Greenbury Report (1995); The Hampel Report (1998)
+
+    + . . .
+  
+    + [The Cadbury Report (1992)](http://bit.ly/1KRE27l) was followed by the Greenbury Report (1995) which focused on best practice with regards to directors’ remuneration.
+  
+    + [The Greenbury Report](http://bit.ly/2emxid3) was published by a committee (chaired by Sir Richard Greenbury) established by the United Kingdom Confederation of Business and Industry on corporate governance.
+
+    + . . .
+  
+---
+
+# Modern internal controls frameworks
+
+* The Cadbury Report (1992); The Greenbury Report (1995); The Hampel Report (1998)
+
+    + . . . 
+  
+    + [The Hampel Report (final report)](http://bit.ly/2dOzQO6) in 1998 drew together the codes of practice established by the earlier Cadbury and Greenbury Reports and led to the creation of a new “Combined Code” of corporate governance.
+
+    + The Committee on Corporate Governance (the Hampel Committee chaired by Sir Ronnie Hampel) was established in November 1995 to review the Cadbury Committee’s recommendations on corporate governance.
+
+---
+
+# Modern internal controls frameworks
+
+* The Turnbull Guidance – 1999
+
+    + In 1999 a working party chaired by Nigel Turnbull, then Finance Director of Rank Group plc was established at the request of the London Stock Exchange to address issues in the Combined Code.
+
+    + In September 1999, the Internal Control: Guidance for Directors on the Combined Code was published (the Turnbull Guidance).
+
+---
+
+# Modern internal controls frameworks
+
+* The Turnbull Guidance – 1999
+
+* Internal Control: Guidance for Directors on the Combined Code
+
+      + Integrated risk management into internal control assessment and reporting
+
+      + Stressed the responsibility of the board for risk management and internal control assessment and reporting
+
+    + Extended the review and reporting obligation to cover all areas of control (operational, financial and compliance) not just internal financial control
+
+---
+
+# Modern internal controls frameworks
+
+* The Turnbull Guidance: four stage framework
+
+    +  Stage 1. Identify and assess risks by looking at aspects such as completeness of risks assessed, the impact and probability of a risk materialising together with time frames;
+
+    + Stage 2. Design appropriate controls over the risks. Controls should be embedded in systems, should include both preventative and detective measures and be cost-effective and proportionate;
+
+    + Stage 3. Test that the controls are working. Here the aim is to be able to state positively that the controls are operating in practice in accordance with their design; and
+
+    + Stage 4. Conclude on the effectiveness of the internal control system. This should be carried out annually by the board, as stipulated in the framework.
+
+---
+
+# Replacement of Turnbull Guidance
+
+* Corporate failures in 2001 in the US revealed some loopholes in corporate governance. The UK responded by the creation of the Higgs Committee (in relation to role and effectiveness of non-executive directors) and the Smith Committee (in relation to audit committee in a company) in 2002. (not mentioned in Chapter 6)
+
+* Both reports of Higgs and Smith recommended a revision of the Combined Code. (not mentioned in Chapter 6)
+
+* In 2003, the new Combined Code was published. (not mentioned in Chapter 6)
+
+* . . .
+
+---
+
+# Replacement of Turnbull Guidance
+
+* In 2004, the Financial Reporting Council established the Turnbull Review Group
+
+* On 13 October 2005, Financial Reporting Council published [Internal Control Revised Guidance for Directors on the Combined Code](http://bit.ly/2daGgcjFraud) (not mentioned in Chapter 6)
+
+* In September 2014, the [Guidance on Risk Management, Internal Control and Related Financial and Business Report](http://bit.ly/1BzrFYE) was published. This guidance replaced Internal Control Revised Guidance for Directors on the Combined Code.
+
+* . . .
+
+---
+
+# UK modern internal controls frameworks simple timeline
+
+* “Code of Best Practice” (the Cadbury Report 1992)
+
+* [The Combined Code (1998) (Derived from the Cadbury and Greenbury Reports)](http://bit.ly/2e9Y8Fu)
+
+* . . . (other reports)
+
+* The Walker Review proposed a new code called “the Stewardship Code” that set out the principles to be adopted by institutional shareholders in exercising good stewardship of the investments in British companies. ([A review of corporate governance in UK Banks and other financial industry entities - final recommendations (26 November 2009)](http://bit.ly/1Gg1Tiy)) 
+
+* . . .
+
+---
+
+# UK modern internal controls frameworks simple timeline
+
+* . . .
+
+* [In July 2010, the UK Stewardship Code was first published (now separated from the UK Governance Code series)](http://bit.ly/1HpzZiM)
+
+* The UK Corporate Governance Code (April 2010) superseded the Combined Code.
+
+* The UK Corporate Governance Code (April 2012)
+
+* [The UK Stewardship Code (September 2012)](http://bit.ly/Mnoktc)
+
+* [The UK Corporate Governance Code (September 2014)](http://bit.ly/1tgEYbV)
+
+* [The UK Corporate Governance Code (April 2016)](http://bit.ly/28PWwtG)
+
+
+---
+
+# Walker Review
+
+* Walker Review Terms of Reference
+
+&gt; “To examine corporate governance in the UK banking industry and make recommendations, including in the following areas: the effectiveness of risk management at board level, including the incentives in remuneration policy to manage risk effectively; the balance of skills, experience and independence required on the boards of UK banking institutions; the effectiveness of board practices and the performance of audit, risk, remuneration and nomination committees; the role of institutional shareholders in engaging effectively with companies and monitoring of boards; . . . ”
+
+
+---
+
+# Walker Review
+
+* Walker Review Terms of Reference
+
+&gt; “. . . ; and whether the UK approach is consistent with international practice and how national and international best practice can be promulgated.”
+
+* Two reports from the Walker Review
+
+    + A consultation document was published on 16 July
+2009
+
+    + A final recommendation was published on 26 November 2009.
+
+---
+
+name: summ
+
+class: inverse, center, middle
+
+# Summary
+
+---
+
+# Summary
+
+* Administrative matters relating to Coursework
+
+* The characteristics of fraudsters.
+
+* The meanings of the various terms in relation to “fraud (in general)”.
+
+* Some specific statutory offences in relation to “fraud (in general)”.
+
+* Some offences prescribed by the Fraud Act 2006.
+
+* Background and guidelines for managing fraud (in general) risks.
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
